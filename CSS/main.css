@@ -1,0 +1,212 @@
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Base*/
+
+body {
+  background: var(--preto);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: 'Arial Black';
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/*Anime Principal*/
+.anime-principal {
+  font-size: 16px;
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.animeflix {
+  text-decoration: none;
+}
+/*Fotos do anime principal da página*/
+.capaAnimePrincipal {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/Dragon\ ball.jpg);
+  background-size: cover;
+}
+.capaAnimePrincipal1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/One-Peace.png);
+  background-size: cover;
+}
+.capaAnimePrincipal2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/AtackOnTitan.jfif);
+  background-size: cover;
+}
+.capaAnimePrincipal3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/NarutoShippuden.jpg);
+  background-size: cover;
+}
+.capaAnimePrincipal4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/Demon-Slayer.jfif);
+  background-size: cover;
+}
+.capaAnimePrincipal5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/boruto.jpg);
+  background-size: cover;
+}
+.capaAnimePrincipal6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/jujutsukaisen.jfif);
+  background-size: cover;
+}
+.capaAnimePrincipal7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/bleach.jpg);
+  background-size: cover;
+}
+.capaAnimePrincipal8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/my-hero-academia.jfif);
+  background-size: cover;
+}
+.capaAnimePrincipal9 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/hunterXhunter.jpg);
+  background-size: cover;
+}
+.capaAnimePrincipal10 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/black-clover.jpg);
+  background-size: cover;
+}
+.container {
+  margin-left: 10px;
+}
+
+.anime-principal .descricao {
+  margin-bottom: 20px;
+}
+
+.titulo {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 50px;
+  margin-top: 20%;
+}
+.botao {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+.botao:hover {
+  background: white;
+  color: black;
+}
+.botao i {
+  margin-right: 10px;
+}
+
+.box-anime {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+/*Séries*/
+
+.series {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-serie {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.nome-serie {
+  color: #aaa;
+}
+
+.container-titulo-series {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulo-series {
+  color: #aaa;
+  font-family: 'Arial';
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+/*INÍCIO*/
+.container-inicio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-inicio {
+  color: var(--vermelho);
+  font-family: 'Arial Black';
+  font-size: 200px;
+  margin-top: 150px;
+}
+
+.assistir {
+  background-color: #fff;
+  font-size: 20px;
+  font-family: 'Arial Black';
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.assistir:hover {
+  background: grey;
+  color: white;
+}
